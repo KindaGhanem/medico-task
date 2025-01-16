@@ -1,0 +1,5 @@
+
+.button-common:hover{
+    background-color: white !important ;
+    color: var(--main-bg-color) !important;;
+}

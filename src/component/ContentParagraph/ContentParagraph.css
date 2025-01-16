@@ -1,0 +1,14 @@
+.content{
+    border-top: 5px solid var(--main-bg-color);
+    background-color: rgba(252, 252, 252, 0.87) !important;
+
+
+}
+
+
+.background{
+    background-color: var(--main-bg-color) !important;
+    color: white !important;
+    margin: auto;
+    width: 75%;
+}

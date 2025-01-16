@@ -1,0 +1,39 @@
+.BG-Icon-Footer{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--font-color);
+    font-size: 18px;
+}
+.par-address{
+    width: 170px;
+}
+.Footer{
+    border-bottom:  1px solid #7d7b7b ;
+}
+.Copy-Part{
+    font-size: 15px;
+}
+.Copy-Part p{
+    width: 260px !important;;
+}
+.Footer-left p{
+    font-size: 14px;
+}
+
+@media(max-width:550px){
+    .Footer .row{
+        margin: auto;
+        text-align: center;
+
+    }
+    .Social-Media-Footer{
+        margin: auto !important;
+        width: max-content;
+    }
+    .par-address{
+        margin: auto !important;
+        width: max-content;
+
+    }
+
+}

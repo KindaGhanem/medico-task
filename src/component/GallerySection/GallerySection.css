@@ -1,0 +1,42 @@
+.Sec-Gallery img{
+    width: 200px;
+    overflow: hidden;
+}
+
+.Sec-Gallery .carousel-control-next-icon {
+    display: none !important;
+
+}
+.Sec-Gallery .carousel-control-next {
+    display: none !important;
+
+}
+.Sec-Gallery  .carousel-control-prev {
+    display: none !important;
+}
+
+.Sec-Gallery .Gallery-Slider-Item .Gallery-Row{
+    flex-wrap: nowrap !important; 
+    overflow: hidden !important;
+}
+
+
+
+.Sec-Gallery .carousel-indicators{
+    margin-bottom: -20px;
+}
+.Sec-Gallery .carousel-indicators  [data-bs-target]{
+    background-color: var( --main-bg-color) ;
+    color: var( --main-bg-color) ;
+
+
+
+
+}
+@media(max-width:550px){
+    .Sec-Gallery .Gallery-Slider-Item .Gallery-Row img{
+        width: 100%;
+
+
+    }
+}

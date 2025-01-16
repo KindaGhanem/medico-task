@@ -1,0 +1,25 @@
+.navbar-brand img{
+    width: 150px !important;
+    }
+.navbar{
+    box-shadow: 1px 1px 1px 1px #eee
+
+    }
+
+    @media(min-width:993px) and (max-width:1050){
+        .nav-link{
+            font-size: 14px !important ;
+
+        }
+
+    }
+    
+
+
+@media(max-width:576px){
+    .navbar-brand img{
+    width: 100px !important;
+    }
+}
+
+

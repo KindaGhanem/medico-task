@@ -1,0 +1,13 @@
+.sec2-card .card:hover{
+    background-color: var(--main-bg-color) !important;
+    color: white !important;
+}
+
+.sec2-card .card:hover .card-title svg{
+    color: white !important;
+
+}
+
+.sec2-card .card{
+    transition: 0.5s;
+}

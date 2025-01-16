@@ -1,0 +1,36 @@
+.SliderTestimonial .carousel-control-next-icon {
+    display: none !important;
+
+}
+.SliderTestimonial .carousel-control-next {
+    display: none !important;
+
+}
+.SliderTestimonial  .carousel-control-prev {
+    display: none !important;
+}
+
+.SliderTestimonial  .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border: 1px solid var( --main-bg-color);
+    background-color: var( --main-bg-color) ;
+    color: var( --main-bg-color) ;
+
+}
+
+
+
+.Item-Test .row-test{
+    flex-wrap: nowrap !important; 
+    overflow: hidden !important;
+}
+
+@media(max-width:550px){
+    .Item-Test .row-test .card{
+        width: 100% !important;
+
+    }
+
+
+}

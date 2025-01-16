@@ -1,0 +1,38 @@
+.shadow{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+.shadow2{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.backgroundWhite{
+    background-color: white;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.bg-icon{
+    width: 60px;
+    height: 60px;
+}
+.icon-about-card{
+    font-size: 18px;
+}
+
+.card-about:hover{
+    background-color: var(--main-bg-color) !important;
+    color: white !important;
+}
+
+.card-about:hover svg{
+    color: white !important;
+
+}
+.card-about:hover .bg-icon{
+    background-color: var(--main-bg-color) !important;
+
+}
+
+.card-about{
+    transition: 0.5s;
+}

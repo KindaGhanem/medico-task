@@ -1,0 +1,9 @@
+.list-foooter li{
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+.footer-title{
+    font-size: 16px;
+}

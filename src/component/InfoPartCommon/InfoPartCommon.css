@@ -1,0 +1,41 @@
+.normal{
+    font-style: normal !important;
+}
+.after{
+    position: relative;
+}
+.after::after{
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: var(--main-bg-color);
+    bottom: -15px;
+    left: 0;
+}
+.InfoPart img{
+    width: 40% !important;
+    object-fit: cover;
+}
+.height{
+    height: 700px;
+}
+.right-part-about{
+    width: 50%!important;
+}
+
+
+
+
+
+@media(max-width:992px){
+    .InfoPart img{
+        margin: auto;
+        width: 90% !important;
+        
+    }
+    .right-part-about{
+        margin: auto;
+        width: 90% !important;
+    }
+}

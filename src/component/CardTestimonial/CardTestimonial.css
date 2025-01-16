@@ -1,0 +1,15 @@
+.image-card{
+    margin-top: -45px;
+    margin-left: 10px;
+    border: 7px solid white; 
+}
+
+
+
+/* @media(max-width:1230px){
+
+.display{
+    display: none !important;
+}
+
+} */

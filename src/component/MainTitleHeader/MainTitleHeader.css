@@ -1,0 +1,18 @@
+
+.MainTitle h2::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color:var(--main-bg-color);
+    display: block;
+    left: 48%;
+    top: 50px;
+
+
+
+
+}
+.MainTitle{
+    color: var(--font-color);
+}

@@ -1,0 +1,9 @@
+.Word-Advance{
+    width: 200px;
+    height: 40px;
+    top: 15px !important;
+    right: -50px;
+    transform: rotate(45deg);
+    font-size: 14px;
+    padding: 0 0 6px 6px;
+}

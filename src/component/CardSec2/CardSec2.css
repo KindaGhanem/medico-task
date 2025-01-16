@@ -1,0 +1,43 @@
+.fflex{
+    text-align: center !important;
+}
+.back{
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.shadoww{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+.afterr{
+    position: relative;
+}
+.afterr::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: var(--main-bg-color);
+    bottom: -10px;
+    left: 40%;
+}
+
+.card-service:hover{
+    background-color: var(--main-bg-color) !important;
+    color: white !important;
+}
+
+.card-service:hover .card-title svg{
+    color: white !important;
+
+}
+
+.card-service{
+    transition: 0.5s;
+}

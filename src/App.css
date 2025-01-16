@@ -1,0 +1,70 @@
+
+:root{
+    --main-bg-color:#3fbbc0;
+    --font-color:#555555 !important;
+    --sub-cg-color : #f7fcfc ;
+    --bg--card--test:#eee ;
+    --color--text--light:#e2d2d2;
+} 
+
+.color-text{
+    color: var(--color--text--light);
+}
+.card-test-color{
+    background-color: var(--bg--card--test);
+}
+.sub-color{
+    background-color: var(--sub-cg-color);
+}
+.font-color{
+    color: var(--font-color);
+}
+
+.main-bg-color{
+    background-color: var(--main-bg-color) !important;
+
+}
+.main-color{
+    color: var(--main-bg-color) !important;
+
+}
+.font-common{
+    font-size: 0.9rem !important;
+}
+
+.font-common{
+    font-size: 0.9rem !important;
+}
+
+.main-padding{
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 565px !important;
+    }
+}
+
+@media(max-width:992px){
+    .main-padding{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+}
+@media(max-width:550px){
+    .main-padding{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+@media(max-width:768px){
+    .font-common{
+        font-size: 0.7rem !important;
+    }
+
+}
